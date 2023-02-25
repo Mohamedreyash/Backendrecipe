@@ -2,8 +2,8 @@ const express=require("express")
 const mongoose = require('mongoose');
 const app=express()
 const dotenv=require("dotenv")
-const routes=require("./Backendrecipe/routes/routes");
-const UserRouter = require("./Backendrecipe/routes/user")
+const routes=require("./routes/routes");
+const UserRouter = require("./routes/user")
 var cors=require("cors")
 app.use(cors());
 const body=require("body-parser");
